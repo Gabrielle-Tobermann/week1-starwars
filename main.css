@@ -25,3 +25,12 @@ li a {
    background-color: black;
    color: green;
  }
+
+ section {
+   padding: 25px;
+ }
+ .card {
+   margin: 10px;
+   border: 10px solid black;
+   padding: 10px;
+ }
