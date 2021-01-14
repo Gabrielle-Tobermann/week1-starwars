@@ -1,5 +1,5 @@
 body {
-  background-color: blueviolet;
+  background-color:blanchedalmond;
 }
 
 ul {
@@ -26,18 +26,29 @@ li a {
    color: green;
  }
 
+ /* article {
+   display: flex;
+   flex-flow: row wrap;
+ } */
+
  section {
    padding: 25px;
-   border: 10px solid black;
    margin: 10px;
- }
- .card {
-   margin: 0;
-   padding: 0;
-   display: flex;
+   font-family: 'Times New Roman', Times, serif;
  }
 
- img {
+ .card-container {
+   display: flex;
+   flex-flow: row wrap;
+   padding: 40px;
+
+ }
+
+ .card {
+   
+ }
+
+ .card img {
    height: 400px;
    width: 300px;
  }
